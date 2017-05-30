@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="84">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="f1"
+                   displayName="createDOM"
+                   projectFiles="true"
+                   kind="ROOT">
+      <itemPath>/Users/brian/Documents/Dropbox/Computing IV/Boost/createDOM/DOMPrintErrorHandler.cpp</itemPath>
+      <itemPath>/Users/brian/Documents/Dropbox/Computing IV/Boost/createDOM/DOMPrintErrorHandler.hpp</itemPath>
+      <itemPath>/Users/brian/Documents/Dropbox/Computing IV/Boost/createDOM/DOMPrintFilter.cpp</itemPath>
+      <itemPath>/Users/brian/Documents/Dropbox/Computing IV/Boost/createDOM/DOMPrintFilter.hpp</itemPath>
+      <itemPath>/Users/brian/Documents/Dropbox/Computing IV/Boost/createDOM/DOMTreeErrorReporter.cpp</itemPath>
+      <itemPath>/Users/brian/Documents/Dropbox/Computing IV/Boost/createDOM/DOMTreeErrorReporter.hpp</itemPath>
+      <itemPath>/Users/brian/Documents/Dropbox/Computing IV/Boost/createDOM/createDomDocument.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>BuildTree.hpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>BuildTree.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>/usr/local/include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_atomic-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_chrono-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_chrono.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_context-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_context.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_coroutine-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_coroutine.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_date_time-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_date_time.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_filesystem-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_filesystem.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_graph-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_graph.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_iostreams-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_iostreams.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_locale-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_log-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_log.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_log_setup-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_log_setup.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_math_c99-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_math_c99.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_math_c99f-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_math_c99f.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_math_c99l-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_math_c99l.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_math_tr1-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_math_tr1.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_math_tr1f-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_math_tr1f.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_math_tr1l-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_math_tr1l.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_prg_exec_monitor-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_prg_exec_monitor.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_program_options-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_program_options.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_python-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_python.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_random-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_random.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_regex-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_regex.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_serialization-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_serialization.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_signals-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_signals.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_system-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_system.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_thread-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_timer-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_timer.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_unit_test_framework-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_unit_test_framework.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_wave-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_wave.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_wserialization-mt.dylib</linkerLibFileItem>
+            <linkerLibFileItem>/usr/local/Cellar/boost/1.55.0/lib/libboost_wserialization.dylib</linkerLibFileItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>

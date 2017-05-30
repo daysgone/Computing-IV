@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!--
+Richie Havens: "Mixed Bag"
+Jesse M Heines, heines@cs.uml.edu
+ February 12, 2012
+  source:  http://musicbrainz.org/ws/2/release/6a866e4d-e2c7-4990-92a5-9d1a30d51943?inc=artist-credits%2Blabels%2Bdiscids%2Brecordings
+ -->
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+     <release id="6a866e4d-e2c7-4990-92a5-9d1a30d51943">
+       <title>Mixed Bag</title>
+       <status>Official</status>
+       <quality>normal</quality>      
+       <text-representation>
+         <language>eng</language>
+         <script>Latn</script>
+       </text-representation>
+       <artist-credit>
+         <name-credit>
+           <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+             <name>Richie Havens</name>
+             <sort-name>Havens, Richie</sort-name>
+           </artist>
+         </name-credit>
+       </artist-credit>
+       <date>1967</date>
+       <country>US</country>
+       <asin>B000001FOM</asin>
+       <label-info-list count="1">
+         <label-info>
+           <catalog-number>FTS-3006</catalog-number>
+           <label id="87607d99-1448-4c5f-b794-b67671862aa0">
+             <name>Verve Forecast</name>
+             <sort-name>Verve Forecast</sort-name>
+           </label>
+         </label-info>
+       </label-info-list>
+       <medium-list count="1">
+         <medium>
+           <position>1</position>
+           <format>Vinyl</format>
+           <disc-list count="0" />
+           <track-list count="11" offset="0">
+             <track>
+               <position>1</position>
+               <length>217866</length>
+               <recording id="5b076ec1-01c6-4924-aa54-4a22322d5561">
+                 <title>High Flyin' Bird</title>
+                 <length>217866</length>
+                 <artist-credit>
+                   <name-credit>
+                     <artist id="b45ea9f4-d0a1-45e1-b3a8-bf4fe509b8d0">
+                       <name>Richie Havens</name>
+                       <sort-name>Havens, Richie</sort-name>
+                     </artist>
+                   </name-credit>
+                 </artist-credit>
+               </recording>
+            </track>
+           </track-list>
+         </medium>
+       </medium-list>
+     </release>
+  </metadata>

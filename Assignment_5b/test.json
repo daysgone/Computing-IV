@@ -1,0 +1,179 @@
+{
+  "metadata" : {
+    "xmlns" : "http://musicbrainz.org/ns/mmd-2.0#",
+    "release" : {
+      "id" : "ccf2dca1-c20c-4e24-8a24-340d67fae44c",
+      "test_self_Closing_tag1" : {
+        "att" : "data"
+      },
+      "test_self_Closing_tag2" : {
+        "id" : "test" ,
+        " id2" : "test2" ,
+        " id3" : "test3"
+      },
+      "status" : {
+        "status" : "Official",
+        "id" : "test"
+      },
+      "tracks" : {
+        "track" : {
+          "id" : "wtf"
+        },
+        "track1" : "track1 content",
+        "track2" : {
+          "attrib" : "track3",
+          "name" : "track2 name ",
+          "length" : {
+            "length" : "345",
+            "type" : "sec"
+          },
+          "test_self_Closing_tag2" : {
+            "id" : "test" ,
+            " id2" : "test2" ,
+            " id3" : "test3"
+          }
+        }
+      }
+    },
+    "leveltest" : {
+      "leveltest2" : "content"
+    }
+  },
+  "root_child2" : {
+    "tracks" : {
+      "track" : {
+        "id" : "wtf"
+      },
+      "track1" : "track1 content",
+      "track2" : {
+        "attrib" : "track3",
+        "name" : "track2 name ",
+        "length" : {
+          "length" : "345",
+          "type" : "sec"
+        },
+        "test_self_Closing_tag2" : {
+          "id" : "test" ,
+          " id2" : "test2" ,
+          " id3" : "test3"
+        }
+      }
+    }
+  },
+  "root_child3" : {
+    "tracks" : {
+      "track" : {
+        "id" : "wtf"
+      },
+      "track1" : "track1 content",
+      "track2" : {
+        "attrib" : "track3",
+        "name" : "track2 name ",
+        "length" : {
+          "length" : "345",
+          "type" : "sec"
+        },
+        "test_self_Closing_tag2" : {
+          "id" : "test" ,
+          " id2" : "test2" ,
+          " id3" : "test3"
+        }
+      }
+    }
+  },
+  "root_child4" : {
+    "tracks" : {
+      "track" : {
+        "id" : "wtf"
+      },
+      "track1" : "track1 content",
+      "track2" : {
+        "attrib" : "track3",
+        "name" : "track2 name ",
+        "length" : {
+          "length" : "345",
+          "type" : "sec"
+        },
+        "test_self_Closing_tag2" : {
+          "id" : "test" ,
+          " id2" : "test2" ,
+          " id3" : "test3"
+        }
+      }
+    }
+  },
+  "root_child5" : {
+    "tracks" : {
+      "track" : {
+        "id" : "wtf"
+      },
+      "track1" : "track1 content",
+      "track2" : {
+        "attrib" : "track3",
+        "name" : "track2 name ",
+        "length" : {
+          "length" : "345",
+          "type" : "sec"
+        },
+        "test_self_Closing_tag2" : {
+          "id" : "test" ,
+          " id2" : "test2" ,
+          " id3" : "test3"
+        }
+      }
+    }
+  },
+  "root_child6" : {
+    "tracks" : {
+      "track" : {
+        "id" : "wtf"
+      },
+      "track1" : "track1 content",
+      "track2" : {
+        "attrib" : "track3",
+        "name" : "track2 name ",
+        "length" : {
+          "length" : "345",
+          "type" : "sec"
+        },
+        "test_self_Closing_tag2" : {
+          "id" : "test" ,
+          " id2" : "test2" ,
+          " id3" : "test3"
+        }
+      }
+    }
+  },
+  "root_child7" : {
+    "tracks" : {
+      "track" : {
+        "id" : "wtf"
+      },
+      "track1" : "track1 content",
+      "track2" : {
+        "attrib" : "track3",
+        "name" : "track2 name ",
+        "length" : {
+          "length" : "345",
+          "type" : "sec"
+        },
+        "test_self_Closing_tag2" : {
+          "id" : "test" ,
+          " id2" : "test2" ,
+          " id3" : "test3"
+        }
+      }
+    }
+  },
+  "root_child8" : "content",
+  "root_child9" : {
+    "root_child9" : "content",
+    "att1" : "value"
+  },
+  "root_child1" : {
+    "root_child1" : " content ",
+    "att1" : "value" ,
+    " att2" : "value2" ,
+    " att3" : "value3"
+  }
+}

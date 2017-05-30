@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  * Program: XML parser
+  * File:    small.xml
+  * Author:  brian day < brian_day@student.uml.edu >
+  * Program dependent files: none
+  * Created:  2013/09/05
+  * Updated:  2013/10/18
+--> 
+<song-library>
+  <metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+    <release id="ccf2dca1-c20c-4e24-8a24-340d67fae44c">
+      <!-- one line comment <test> -->
+      <test_self_Closing_tag1 att="data"/>
+      <test_self_Closing_tag2 id="test" id2="test2" id3="test3"/>
+      <status id="test">Official</status>
+      <tracks>
+        <track id="wtf"></track>
+        <track1>track1 content</track1> 
+        <track2 attrib="track3">
+          <name>track2 name </name>
+          <length type="sec">345</length>
+          <test_self_Closing_tag2 id="test" id2="test2" id3="test3"/>
+        </track2>
+      </tracks>
+    </release>
+    <leveltest>
+      <leveltest2>content</leveltest2>
+    </leveltest>
+  </metadata>
+  <root_child2>
+    <tracks>
+        <track id="wtf"></track>
+        <track1>track1 content</track1> 
+        <track2 attrib="track3">
+          <name>track2 name </name>
+          <length type="sec">345</length>
+          <test_self_Closing_tag2 id="test" id2="test2" id3="test3"/>
+        </track2>
+      </tracks>
+  </root_child2>
+  <root_child3>
+    <tracks>
+        <track id="wtf"></track>
+        <track1>track1 content</track1> 
+        <track2 attrib="track3">
+          <name>track2 name </name>
+          <length type="sec">345</length>
+          <test_self_Closing_tag2 id="test" id2="test2" id3="test3"/>
+        </track2>
+      </tracks>
+  </root_child3>
+  <root_child4>
+    <tracks>
+        <track id="wtf"></track>
+        <track1>track1 content</track1> 
+        <track2 attrib="track3">
+          <name>track2 name </name>
+          <length type="sec">345</length>
+          <test_self_Closing_tag2 id="test" id2="test2" id3="test3"/>
+        </track2>
+      </tracks>
+  </root_child4>
+  <root_child5>
+    <tracks>
+        <track id="wtf"></track>
+        <track1>track1 content</track1> 
+        <track2 attrib="track3">
+          <name>track2 name </name>
+          <length type="sec">345</length>
+          <test_self_Closing_tag2 id="test" id2="test2" id3="test3"/>
+        </track2>
+      </tracks>
+  </root_child5>
+  <root_child6>
+    <tracks>
+        <track id="wtf"></track>
+        <track1>track1 content</track1> 
+        <track2 attrib="track3">
+          <name>track2 name </name>
+          <length type="sec">345</length>
+          <test_self_Closing_tag2 id="test" id2="test2" id3="test3"/>
+        </track2>
+      </tracks>
+  </root_child6>
+  <root_child7>
+    <tracks>
+        <track id="wtf"></track>
+        <track1>track1 content</track1> 
+        <track2 attrib="track3">
+          <name>track2 name </name>
+          <length type="sec">345</length>
+          <test_self_Closing_tag2 id="test" id2="test2" id3="test3"/>
+        </track2>
+      </tracks>
+  </root_child7>
+  <root_child8>content</root_child8>
+  <root_child9 att1="value">content</root_child9>
+  <root_child1 att1="value" att2="value2" att3="value3"> content </root_child10>
+</song-library>
